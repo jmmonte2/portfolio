@@ -1,0 +1,36 @@
+
+.w-100 .f3 {
+    font-weight: bold;
+}
+
+.intro {
+    min-height: 100vh;
+}
+.db .lh {
+    vertical-align: middle;
+}
+.p {
+    text-align: justify;
+}
+.w-100 .f5 {
+    text-align: justify;
+}
+.ph4 .flex {
+    padding-top: 40px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom: 30px;
+    
+}
+.bt .f6 {
+    font-size: 20px;
+}
+.project {
+    min-height: 686px;
+
+}
+.project .title {
+    padding-top: 40px;
+
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1， shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/mappa-mundi/dist/mappa.min.js" type="text/javascript"></script>
+    <title>Login application</title>
+    <link rel="stylesheet" href="style.css"/>
+  	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+    <body>
+    <section class="intro">
+      <nav class="bt bb tc mw7 center avenir">
+        <a class="f6 f5-l link bg-animate near-black hover-bg-black hover-white dib pa2 ph4-l" href="index.html">Home</a>
+      </nav>
+      <div class="black-80 ph4 dt mw7 center">
+        <h1 class="f2 f2-ns fw3 tc avenir">Login application</h1>
+        <div class="tc">
+          <img src="static/Home.png" style='border:1px solid #000000'  class="w-100 f5 measure" alt="poster">
+        </div>
+        <p class="f5 f5-ns avenir lh-copy center b--black-10 pb4">
+        <b>Motivation</b>
+        <br>
+        The reason I decided to work on this project was to gain an understanding on how
+        login systems are implemented.
+        <b></b>
+        <br><br>
+        <b>Key Takeaways</b><br>
+        <em>User Authentication</em><br>
+        Each time a user attempts to login a query is being executed to determine if the credentials 
+        passed were accurate.<br><br>
+        <em>Security</em><br>
+        Made use of hashing when storing passwords to protect sensitive information.<br><br>
+        <em>Virtual Environment</em><br>
+        Learned that Python projects need a virtual environment to store all neccesary dependencies,
+        which is also very useful when deploying an application.<br><br>
+        <em>HTTP Requests</em><br>
+        This project made use of POST and GET request. POST was utilized each time a user signed in 
+        or created an account, since they were sending information to the server.
+        <br><br>
+        <a href="https://todolisthelper123.herokuapp.com/login"><button>Link</button></a> 
+      </div>
+    </section>
+    </body>

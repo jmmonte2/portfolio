@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1， shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/mappa-mundi/dist/mappa.min.js" type="text/javascript"></script>
+    <title>JMontemayor</title>
+    <link rel="stylesheet" href="style.css"/>
+  	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+  <body>
+    <section class="intro" id="home">
+      <nav class="bt bb tc mw7 center avenir">
+        <a class="f6 f5-l link bg-animate near-black hover-bg-black hover-white dib pa2 ph4-l" href="#home">Home</a>
+        <a class="f6 f5-l link bg-animate near-black hover-bg-black hover-white dib pa2 ph4-l" href="#proj">Projects</a>
+      </nav>
+      <div class="ph4 avenir dt mw7 center">
+      <div class="flex flex-column flex-row-ns">
+        <div class="db dtc-ns v-mid-ns"> 
+          <img src="images/headshot (2).jpg" alt="avatar" class="w-100 mw6 w5-ns" />
+        </div>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f3 fw1 mt0 avenir lh-title">Jacob Montemayor</h1>
+          <p class="f5 f5-l avenir lh-copy black-80">
+            Hi there! I am a computer science major attending the University of Houston. Previously,
+            I worked in the insurance industry and encountered a few processes that could potentially be
+            improved through the use of technology. Running into these different processes sparked my interest
+            in programming, and I decided to pick a language (Java) and study it in depth while also doing projects.
+            After a few months of self-teaching through online resources like JetBrains Academy, I realized that I
+            enjoyed this type of work and decided to pursue a career in software development.
+            That brings me to now, where I am currently focusing on my studies and key areas to become a well-rounded software
+            developer.
+            <br><br>Programming: Python, Java, SQL, HTML, CSS
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proj" class="project mw7 center baskerville pb4">
+      <h1 class="title pb3 pt2 tc f2 avenir animate__animated animate__fadeIn black-80">Projects</h1>
+      <article class="pb3 black-80 bt bb b--black-10">
+        <a class="db pv4 ph3 ph0-l no-underline black-80 dim" href="login.html">
+          <div class="flex flex-column flex-row-ns">
+            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+              <img src="static/Home.png" style='border:1px solid #000000' class="db">
+            </div>
+            <div class="w-100 w-60-ns pl3-ns">
+              <h1 class="f3 fw1 mt0 avenir lh-title">Login application</h1>
+              <p class="f5 f5-l avenir lh-copy black-80">
+              Fullstack application using python
+              </p>
+              <p class="f5 lh-copy mv0 dib avenir black-80">
+                <small>Technologies: Python, SQLite, Bootstrap, HTML, CSS, Git, Heroku <br>January 2022</small>
+              </p>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="pt2 black-80 bb b--black-10">
+        <a class="db pv4 ph3 ph0-l no-underline black-80 dim" href="creditcard.html">
+          <div class="flex flex-column flex-row-ns">
+            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+              <img src="static/cc.jpeg" class="db proj1" style='border:1px solid #000000'  alt="new egsite image">
+            </div>
+            <div class="w-100 w-60-ns pl3-ns">
+              <h1 class="f3 fw1 mt0 avenir lh-title">Credit Card Validation</h1>
+              <p class="f5 f5-l avenir lh-copy black-80">
+              Java application that validates credit card numbers
+              </p>
+              <p class="f5 lh-copy mv0 dib avenir black-80"><small>Technologies: Java, SQLite, Git<br>November 2021</small></p>
+            </div>
+          </div>
+        </a>
+      </article>
+    </section>
+	<footer class="foot pv4 ph3 ph5-ns tc">
+    <a href="https://github.com/jmmonte2"  class="social">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+	</footer>
+  </body>
+</html>

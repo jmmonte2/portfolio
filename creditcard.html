@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1， shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/mappa-mundi/dist/mappa.min.js" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+    <title>Credit Card Validation</title>
+    <link rel="stylesheet" href="style.css"/>
+  	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+    <body>
+    <section class="intro">
+      <nav class="bt bb tc mw7 center avenir">
+        <a class="f6 f5-l link bg-animate near-black hover-bg-black hover-white dib pa2 ph4-l" href="index.html">Home</a>
+      </nav>
+      <div class="black-80 ph4 dt mw7 center">
+        <h1 class="f2 f2-ns fw3 tc avenir" >Credit Card Validation</h1>
+        <div class="tc" href="https://github.com/jmmonte2/credit-card">
+          <img src="static/cc.jpeg" style='border:1px solid #000000' class="w-100 f5 measure" alt="poster">
+        </div>
+        <p class="f5 f5-ns avenir lh-copy center b--black-10 pb4">
+        <b>About</b>
+        <br>
+        Java application that generates random credit card numbers that are validated
+        by Luhn's algorithm. Each time a card is created they are stored in an SQLite database
+        table.
+        <br><br>
+        
+        
+        <b>Motivation</b>
+        <br>
+        The reason I decided to work on this project was to gain an understanding of
+        how Java applications communicate with databases, specifically, to learn how
+        to store objects from an application into a database.
+        <b></b>
+        <br><br>
+        <b>Key Takeaways</b><br>
+        <em>JDBC</em><br>
+        Gained an understanding of how JDBC API is responsible for connecting Java applications to
+        a database. In this project, I utilized the  SQLite JDBC driver, which was used to convert
+        JDBC calls to a call that the database can understand.<br><br>
+        <em>Closing Connection</em><br>
+        Also learned that it is best practice to explicitly close the database connection after using it, 
+        since a memory leakage can occur if left open and that could potentially lead to poor performance
+        in application.<br><br>
+        <em>SQL Statements</em><br>
+        This project also taught me how to run SQL statements using the necessary library (java.sql.Statement) while
+        also making use of exception handling (try-catch statements) to run the statements just 
+        in case runtime errors occur.
+        <br><br>
+        <a href="https://github.com/jmmonte2/credit-card"><button>Repo</button></a>
+      </div>
+    </section>
+    </body>
